@@ -14,11 +14,14 @@
     <None Remove="Day1\Task1Input.txt" />
     <None Remove="Day2\" />
     <None Remove="Day2\Input1.txt" />
+    <None Remove="Day3\" />
+    <None Remove="Day3\Input1.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Day1\" />
     <Folder Include="Shared\" />
     <Folder Include="Day2\" />
+    <Folder Include="Day3\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="ReadLine" Version="2.0.1" />
@@ -26,5 +29,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Day1\Input1.txt" />
     <EmbeddedResource Include="Day2\Input1.txt" />
+    <EmbeddedResource Include="Day3\Input1.txt" />
   </ItemGroup>
 </Project>
