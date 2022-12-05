@@ -12,12 +12,12 @@ namespace AdventOfCode2022.Shared
         /// </summary>
         /// <param name="taskNumber"></param>
         /// <returns></returns>
-        public static IAdventOfCodeTask ResolveTask(double taskNumber)
+        public static IAdventOfCodeTask ResolveTask(string taskNumber)
 		{
-			var splits = taskNumber.ToString().Split('.');
+            var splits = taskNumber.Split('.');
             var taskDay = splits[0];
-			var task = splits[1];
-			var fullClassName = $"AdventOfCode2022.Day{taskDay}.Task{task}";
+            var task = splits[1];
+            var fullClassName = $"AdventOfCode2022.Day{taskDay}.Task{task}";
             var objectType = Type.GetType(fullClassName);
             return Activator.CreateInstance(objectType) as IAdventOfCodeTask;
         }
