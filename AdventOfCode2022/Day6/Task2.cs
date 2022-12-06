@@ -7,7 +7,7 @@ namespace AdventOfCode2022.Day6
 	{
         public override void Run()
         {
-            var input = GetInputAsSingelString();
+            var input = GetInputAsSingleString();
             
 
             const int messageLength = 14;

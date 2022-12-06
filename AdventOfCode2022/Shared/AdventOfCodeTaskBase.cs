@@ -20,7 +20,7 @@ namespace AdventOfCode2022.Shared
             return InputReader.ReadInputAsLines(InputFileName);
         }
 
-        protected string GetInputAsSingelString()
+        protected string GetInputAsSingleString()
         {
             return InputReader.ReadInput(InputFileName);
         }
