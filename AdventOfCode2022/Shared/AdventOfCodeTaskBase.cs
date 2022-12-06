@@ -19,6 +19,11 @@ namespace AdventOfCode2022.Shared
         {
             return InputReader.ReadInputAsLines(InputFileName);
         }
+
+        protected string GetInputAsSingelString()
+        {
+            return InputReader.ReadInput(InputFileName);
+        }
     }
 }
 

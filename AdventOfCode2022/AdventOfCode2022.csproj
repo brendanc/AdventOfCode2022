@@ -22,6 +22,8 @@
     <None Remove="Day5\Intpu1.txt" />
     <None Remove="Day6\" />
     <None Remove="Day6\Input1.txt" />
+    <None Remove="Day7\" />
+    <None Remove="Day7\Input1.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Day1\" />
@@ -31,6 +33,7 @@
     <Folder Include="Day4\" />
     <Folder Include="Day5\" />
     <Folder Include="Day6\" />
+    <Folder Include="Day7\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="ReadLine" Version="2.0.1" />
@@ -42,5 +45,6 @@
     <EmbeddedResource Include="Day4\Input1.txt" />
     <EmbeddedResource Include="Day5\Input1.txt" />
     <EmbeddedResource Include="Day6\Input1.txt" />
+    <EmbeddedResource Include="Day7\Input1.txt" />
   </ItemGroup>
 </Project>
