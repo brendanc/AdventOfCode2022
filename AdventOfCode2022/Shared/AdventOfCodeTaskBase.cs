@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text.RegularExpressions;
+
 namespace AdventOfCode2022.Shared
 {
     public abstract class AdventOfCodeTaskBase : IAdventOfCodeTask
