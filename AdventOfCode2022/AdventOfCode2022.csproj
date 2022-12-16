@@ -34,6 +34,10 @@
     <None Remove="Day11\Input1.txt" />
     <None Remove="Day11\Sample.txt" />
     <None Remove="Day12\Input1.txt" />
+    <None Remove="Day13\" />
+    <None Remove="Day13\Input1.txt" />
+    <None Remove="Day13\Sample.txt" />
+    <None Remove="Newtonsoft.Json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Day1\" />
@@ -46,9 +50,11 @@
     <Folder Include="Day9\" />
     <Folder Include="Day10\" />
     <Folder Include="Day11\" />
+    <Folder Include="Day13\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="ReadLine" Version="2.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Day1\Input1.txt" />
@@ -65,5 +71,7 @@
     <EmbeddedResource Include="Day11\Input1.txt" />
     <EmbeddedResource Include="Day11\Sample.txt" />
     <EmbeddedResource Include="Day12\Input1.txt" />
+    <EmbeddedResource Include="Day13\Input1.txt" />
+    <EmbeddedResource Include="Day13\Sample.txt" />
   </ItemGroup>
 </Project>
